@@ -107,8 +107,6 @@ app.delete(ROUTE_NAME,function(req,res){
 });
 
 
-
-
 app.listen(5000,function(error){
     if(!error)
         console.log("server has been started successfully...");
