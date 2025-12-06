@@ -3,7 +3,6 @@
 
 let express = require('express');
 let bodyParser = require('body-parser'); // this complesury
-const e = require('express');
 //create object
 let app = express();
 app.use(express.urlencoded({extended:true})) // this complesury
