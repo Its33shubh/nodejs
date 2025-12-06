@@ -69,7 +69,7 @@ app.put(ROUTE_NAME, function (req, res) {
             output = [{ 'error': 'no' }, { 'success': 'yes' }, { 'message': 'product updated..' }];
         }
     }
-    res.json(output);
+    res.json(output);\
 });
 
 //to delete date from sending request http://localhost:5000/product
