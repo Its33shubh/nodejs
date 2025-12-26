@@ -56,13 +56,21 @@
 20) Update the order detail with orderNumber 204 and productCode 'P104' and change the orderLineNumber to 2.
 ->update orderdetails set orderLineNumber=2 where orderNumber=204 and productCode='P104'; 
 21) Update the order with orderNumber 302 and change its status to 'Delivered'.
+-> update orders set status='Delivered' where orderNumber=302;
 22) Update the order with orderNumber 303 and change the requiredDate to '2023-11-25'.
+-> update orders set requiredDate='2023-11-25' where orderNumber=303;
 23) Update the order with orderNumber 304 and change the comments to 'Urgent shipment required'.
+->update orders set comments='Urgent shipment required' where orderNumber=304;
 24) Update the payment with customerNumber 105 and checkNumber 'CH987654' and change the amount to 2000.00.
+-> update payments set amount=2000.00 where customerNumber=105 and checkNumber='CH987654';
 25) Update the payment with customerNumber 106 and checkNumber 'CH123456' and change the paymentDate to '2023-11-14'.
+->update payments set paymentDate='2023-11-14' where customerNumber=106 and checkNumber='CH123456';
 26) Update the payment with customerNumber 107 and checkNumber 'CH789012' and change the customerNumber to 108.
+->update payments set customerNumber=108 where customerNumber=107 and checkNumber='CH789012';
 27) Update the product line with productLine 'Toys' and change its textDescription to 'Products related to toys'.
+->update productLines set textDescription='Products related to toys' where productLine='Toys';
 28) Update the product line with productLine 'Oce Supplies' and change its htmlDescription to 'Oce supplies description'.
+->update productLines set htmlDescription='Oce supplies description' where productLine='Oce Supplies';
 29) Update the product line with productLine 'Electronics' and change the image (if applicable) to a new image.
 30) Update the product with productCode 'P105' and change its productDescription to 'Compact digital camera'.
 31) Update the product with productCode 'P106' and change its buyPrice to 199.99.
