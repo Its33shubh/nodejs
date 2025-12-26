@@ -33,16 +33,28 @@
 9) Update the customer with customerNumber 101 and change their contactFirstName to 'Jennifer'.
 -> update customers set  contactFirstName='Jennifer' where customerNumber=101; 
 10) Update the customer with customerNumber 102 and change their customerName to 'XYZ Corporation'.
+-> update customers set  contactFirstName='XYZ Corporation' where customerNumber=102; 
+
 11) Update the customer with customerNumber 103 and change their phone to '555-987-6543'.
+-> update customers set  phone='555-987-6543' where customerNumber=103; 
 12) Update the employee with employeeNumber 1002 and change their jobTitle to 'Sales Associate'.
+->update employees set  jobTitle='Sales Associate' where employeeNumber=1002; 
 13) Update the employee with employeeNumber 1003 and change their extension to '4321'.
+->update employees set  extension='4321' where employeeNumber=1003; 
 14) Update the employee with employeeNumber 1004 and change their OfficeCode to '2'.
+->update employees set  OfficeCode='2' where employeeNumber=1004; 
 15) Update the office with officeCode '2' and change its phone to '555-987- 6543'.
+->update Offices set phone='555-987- 6543' where OfficeCode='2'; 
 16) Update the office with OfficeCode '3' and change its city to 'Chicago'.
+->update Offices set city='Chicago' where OfficeCode='3'; 
 17) Update the office with OfficeCode '4' and change its postalCode to '60601'.
+->update Offices set postalCode='60601' where OfficeCode='4'; 
 18) Update the order detail with orderNumber 202 and productCode 'P102' and change the quantityOrdered to 15.
+->update orderdetails set quantityOrdered='15' where orderNumber=202 and productCode='P102'; 
 19) Update the order detail with orderNumber 203 and productCode 'P103' and change the priceEach to 39.99.
+-> update orderdetails set priceEach=39.99 where orderNumber=203 and productCode='P103'; 
 20) Update the order detail with orderNumber 204 and productCode 'P104' and change the orderLineNumber to 2.
+->update orderdetails set orderLineNumber=2 where orderNumber=204 and productCode='P104'; 
 21) Update the order with orderNumber 302 and change its status to 'Delivered'.
 22) Update the order with orderNumber 303 and change the requiredDate to '2023-11-25'.
 23) Update the order with orderNumber 304 and change the comments to 'Urgent shipment required'.
