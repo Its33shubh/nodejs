@@ -31,7 +31,7 @@
 
 -- Certainly, here are three UPDATE exercises for each of the tables in your database:
 9) Update the customer with customerNumber 101 and change their contactFirstName to 'Jennifer'.
--> update table customers
+-> update customers set  contactFirstName='Jennifer' where customerNumber=101; 
 10) Update the customer with customerNumber 102 and change their customerName to 'XYZ Corporation'.
 11) Update the customer with customerNumber 103 and change their phone to '555-987-6543'.
 12) Update the employee with employeeNumber 1002 and change their jobTitle to 'Sales Associate'.
