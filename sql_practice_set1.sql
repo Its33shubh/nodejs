@@ -72,9 +72,15 @@
 28) Update the product line with productLine 'Oce Supplies' and change its htmlDescription to 'Oce supplies description'.
 ->update productLines set htmlDescription='Oce supplies description' where productLine='Oce Supplies';
 29) Update the product line with productLine 'Electronics' and change the image (if applicable) to a new image.
+->update productLines set image where productLine='Electronics';
+
 30) Update the product with productCode 'P105' and change its productDescription to 'Compact digital camera'.
+->update products set productDescription='Compact digital camera' where productCode='P105';
 31) Update the product with productCode 'P106' and change its buyPrice to 199.99.
+->update products set buyPrice=199.99 where productCode='P106';
+
 32) Update the product with productCode 'P107' and change its quantityInStock, increate it by 75.
+->update products set quantityInStock=(quantityInStock + 75) where productCode='P107';
 33) Delete a customer with the customerNumber of 103.
 34) Delete an employee with the employeeNumber of 1055.
 35) Delete an office with the OfficeCode '4'.
